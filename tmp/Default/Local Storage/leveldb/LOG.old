@@ -1,3 +1,16 @@
-2024/03/30-11:23:00.685 6368 Reusing MANIFEST C:\Users\anitha sai\OneDrive\Desktop\ALL\webScraping\tmp\Default\Local Storage\leveldb/MANIFEST-000001
-2024/03/30-11:23:00.688 6368 Recovering log #85
-2024/03/30-11:23:00.693 6368 Reusing old log C:\Users\anitha sai\OneDrive\Desktop\ALL\webScraping\tmp\Default\Local Storage\leveldb/000085.log 
+2024/03/30-11:48:29.833 73f0 Reusing MANIFEST C:\Users\anitha sai\OneDrive\Desktop\ALL\webScraping\tmp\Default\Local Storage\leveldb/MANIFEST-000001
+2024/03/30-11:48:30.161 73f0 Recovering log #85
+2024/03/30-11:48:30.314 73f0 Level-0 table #87: started
+2024/03/30-11:48:30.603 73f0 Level-0 table #87: 497216 bytes OK
+2024/03/30-11:48:30.669 73f0 Delete type=0 #85
+2024/03/30-11:48:30.758 3388 Compacting 4@0 + 1@1 files
+2024/03/30-11:48:31.195 3388 Generated table #89@0: 54 keys, 499118 bytes
+2024/03/30-11:48:31.195 3388 Compacted 4@0 + 1@1 files => 499118 bytes
+2024/03/30-11:48:31.196 3388 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/30-11:48:31.197 3388 Delete type=2 #76
+2024/03/30-11:48:31.197 3388 Delete type=2 #78
+2024/03/30-11:48:31.197 3388 Delete type=2 #81
+2024/03/30-11:48:31.197 3388 Delete type=2 #84
+2024/03/30-11:48:31.198 3388 Delete type=2 #87
+2024/03/30-11:48:42.820 74d8 Level-0 table #91: started
+2024/03/30-11:48:42.852 74d8 Level-0 table #91: 379304 bytes OK

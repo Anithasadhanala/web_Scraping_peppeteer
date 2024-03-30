@@ -1,4 +1,5 @@
 const puppeteer =  require('puppeteer')
+const fs = require('fs')
 
 const getAllPageProducts =async ()=>{
 
@@ -43,6 +44,11 @@ const getAllPageProducts =async ()=>{
                     "image" : img,
                 }
                 list_of_products.push(obj)
+
+                fs.appendFile("productsData.csv",`\n${name},${price},${img}`,function(err){
+                    if(err) throw err;
+                    
+                });
             }        
         }
         console.log(list_of_products.length)
@@ -55,6 +61,11 @@ const getAllPageProducts =async ()=>{
        }
         else break;
     }
+
+
+
+
+    
    
     console.log(list_of_products)
     console.log(list_of_products.length)
